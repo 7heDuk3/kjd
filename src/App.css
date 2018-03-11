@@ -27,45 +27,71 @@
   to { transform: rotate(360deg); }
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+div#root {
+  height: 100%;
+  width: 100%;
+}
 .wrapper {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: #FFF;
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
 }
 .main {
-  grid-column: 1;
   display: grid;
-  /* max-width: px; */
-  background-color: #AAA;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #FFF;
+  min-height: 100%;
+  text-align: center;
 }
-.main > kjd {
+kjd {
   height: 250px;
-  width: auto;
-  background-image: url(img/layout/header.jpg);
+  grid-row: 1;
+  grid-column: 1 / 4;
+  padding-bottom: 20px;
+  /* background-color: white; */
+  /* background-image: url(img/layout/header.jpg); */
   text-align: center;
   font-size: 20px;
 }
-.main > navbar {
-  height: 28px;
-  width: auto;
+navbar {
+  /* height: auto; */
+  min-width: 550px;
+  grid-row: 2;
+  grid-column: 2;
   display: grid;
-  background-image: url(img/layout/nav.jpg);
+  /* background-image: url(img/layout/nav.jpg); */
+  /* background-color: white; */
   grid-template-columns: auto auto auto auto auto auto;
-  /* border: 1px solid white; */
+  grid-gap: 10px;
   text-align: center;
-  line-height: 28px;
 }
-.main > navbar > menu-item {
+navbar > menu-item {
   grid-column: auto;
-  /* border: 1px solid white; */
 }
-.main > navbar > menu-item:hover {
+navbar > menu-item:hover {
   font-style: oblique;
 }
-
-.main > content {
+content {
   height: auto;
-  width: auto;
   grid-row: 3;
-  background-color: #484;
+  grid-column: 1 / 4;
+  background-color: #AFA;
+  padding: 10px;
+  text-align: left;
+}
+footer {
+  height: 100px;
+  grid-row: 4;
+  grid-column: 1 / 4;
+  background-color: #FAA;
+  padding: 10px;
+  text-align: left;
 }

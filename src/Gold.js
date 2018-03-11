@@ -5,7 +5,87 @@ class Gold extends Component {
   render() {
     return (
       <div>
-        Gold
+        Gold gold Gold gold Gold gold Gold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
+        Gold goldGold goldGold goldGold goldGold goldGold gold
       </div>
     )
   }

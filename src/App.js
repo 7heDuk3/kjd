@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './img/layout/logo.svg';
 import News from './News.js';
 import Gold from './Gold.js';
 import Projects from './Projects.js';
@@ -50,6 +50,8 @@ class App extends Component {
       }
     }
 
+    
+
 
     // switch(this.state.page) {
     //   case 1:
@@ -59,7 +61,7 @@ class App extends Component {
     return (
       <div className="wrapper">
         <div className="main">
-          <kjd></kjd>
+          <kjd><img src={logo} style={{width: 250, height: 250}}/></kjd>
           <navbar>
             <menu-item onClick={() => this.setState({page: 'News'})}>News</menu-item>
             <menu-item onClick={() => this.setState({page: 'Gold'})}>Gold</menu-item>
@@ -73,6 +75,10 @@ class App extends Component {
             {page}
             
           </content>
+          <footer>
+            Contact
+            
+          </footer>
         </div>
       </div>
     );
