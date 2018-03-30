@@ -83,7 +83,7 @@ content {
   height: auto;
   grid-row: 3;
   grid-column: 1 / 4;
-  background-color: #AFA;
+  background-color: #888888;
   padding: 10px;
   text-align: left;
 }
@@ -91,7 +91,7 @@ footer {
   height: 100px;
   grid-row: 4;
   grid-column: 1 / 4;
-  background-color: #FAA;
+  background-color: #EECF56;
   padding: 10px;
   text-align: left;
 }
