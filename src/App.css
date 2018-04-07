@@ -47,7 +47,7 @@ div#root {
   grid-template-rows: auto auto 1fr auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-color: #FFF;
+  background-color: white;
   min-height: 100%;
   text-align: center;
 }
@@ -75,10 +75,18 @@ navbar {
 }
 navbar > menu-item {
   grid-column: auto;
+  color: #757575;
 }
 navbar > menu-item:hover {
   font-style: oblique;
 }
+
+img {
+  height: auto;
+  width: 100%;
+  background-image: url(img/news/herring1Big.jpg);
+}
+
 content {
   height: auto;
   grid-row: 3;
@@ -87,6 +95,7 @@ content {
   padding: 10px;
   text-align: left;
 }
+
 footer {
   height: 100px;
   grid-row: 4;
