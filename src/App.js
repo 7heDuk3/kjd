@@ -6,7 +6,40 @@ import Projects from './Projects.js';
 import Men from './Men.js';
 import About from './About.js';
 import './App.css';
-import { homedir } from 'os';
+import { homedir } from 'os';// require('es6-promise').polyfill();
+
+require('isomorphic-fetch');
+var Dropbox = require('dropbox').Dropbox;
+var dbx = new Dropbox({ accessToken: 'MIJO1dE1o6AAAAAAAAAAJETCzqS8eLLevqNH5-HA0anLzZlzzHgGSIbuhJXRMe1k' });
+
+let linkObj
+let fileName
+let id
+
+dbx.filesListFolder({path: '/Juveler foton'})
+  .then(function(response) {
+    return response.entries
+  }).then(entries => {
+  
+    const links = entries.map(entry => dbx.filesGetTemporaryLink({path: entry.path_display}))
+   return Promise.all(links)
+  }).then(links => {
+    for(let l of links) {
+        console.log(l) // Skriver ut länk till varje fil
+        if(l.metadata.name === 'multiring.jpg') {
+          console.log("YES");
+        
+          linkObj = l.link
+          id = l.metadata.content_hash
+          console.log(linkObj)
+        }
+    }
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
+
 
 
 const pages = [
@@ -20,7 +53,7 @@ const pages = [
   },
   {
     name: 'Projects',
-    component: <Projects/>
+    component: <Projects obj={linkObj}/>
   },
   {
     name: 'Men',
@@ -37,11 +70,7 @@ class App extends Component {
     super(props)
     this.state = {page: 'News'}
   }
-  
-  // switchPage(toPage) {
-  //   this.state = toPage;
-  // }
-  
+
   render() {
     let page;
     for(let p of pages) {
@@ -49,19 +78,16 @@ class App extends Component {
         page = p.component;
       }
     }
-
     
-
-
-    // switch(this.state.page) {
-    //   case 1:
-    //   page
-    // }
-
+    
     return (
       <div className="wrapper">
         <div className="main">
-          <kjd><img src={logo} style={{width: 250, height: 250}}/></kjd>
+          <kjd>
+            {/* <div className="ex-img"> */}
+              <img src={logo} style={{width: 250, height: 250}}/>
+            {/* </div> */}
+          </kjd>
           <navbar>
             <menu-item onClick={() => this.setState({page: 'News'})}>News</menu-item>
             <menu-item onClick={() => this.setState({page: 'Gold'})}>Gold</menu-item>
@@ -71,9 +97,10 @@ class App extends Component {
             <menu-item onClick={() => this.setState({page: 'About'})}>About</menu-item>
           </navbar>
           <content>
-        
-            {page}
-            
+
+            {/* {page} */}
+            <img src={linkObj}/>
+
           </content>
           <footer>
             Contact

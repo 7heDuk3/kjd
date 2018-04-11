@@ -5,7 +5,8 @@ export class News extends Component {
   render() {
     return (
       <div>
-        News
+        <div className="exempel-bild">
+        </div>
       </div>
     )
   }
